@@ -15,7 +15,9 @@ function Items() {
     const mappedItems: any = sourceItems
       .map((item: any) => ({
         ...item,
-        requiredItems: evaluateMaterials(item.name),
+        requiredItems: (
+          <pre>{JSON.stringify(evaluateMaterials(item.name), null, 2)}</pre>
+        ),
       }))
       .sort((a, b) => (a.name > b.name ? 1 : -1));
     setitems(mappedItems);
@@ -50,15 +52,16 @@ function Items() {
       {loading ? (
         <SimpleSkeleton rows={10} columns={3} />
       ) : (
-        items.map((item: any, key: any) => (
-          <SimpleAccordion key={`item-${key}`} title={item.name}>
-            <pre>{JSON.stringify(evaluateMaterials(item.name), null, 2)}</pre>
-          </SimpleAccordion>
-          //   <Stack key={`item-${key}`}>
-          //     <Heading as="h1">{item.name}</Heading>
-          //     <pre>{JSON.stringify(evaluateMaterials(item.name), null, 2)}</pre>
-          //   </Stack>
-        ))
+        <SimpleAccordion
+          items={items.map((item: any) => ({
+            title: item.name,
+            body: item.requiredItems,
+          }))}
+        ></SimpleAccordion>
+        //   <Stack key={`item-${key}`}>
+        //     <Heading as="h1">{item.name}</Heading>
+        //     <pre>{JSON.stringify(evaluateMaterials(item.name), null, 2)}</pre>
+        //   </Stack>
       )}
     </Flex>
   );
