@@ -30,6 +30,7 @@ function Items() {
                 const tItem: any = sourceItems.find(
                   (item2: any) => item2.name == item1.name
                 );
+                if (!tItem) console.log({ tempItem, tItem, item1 });
                 tItem.quantity = item1.quantity * tempItem.quantity;
                 return tItem;
               })

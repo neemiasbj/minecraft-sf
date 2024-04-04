@@ -321,6 +321,7 @@
       { "name": "Barra de ferro", "quantity": 1, "items": [] }
     ]
   },
+  { "name": "Bloco de Quartzo", "quantity": 1, "items": [] },
   {
     "name": "Hardened Metal",
     "quantity": 1,
