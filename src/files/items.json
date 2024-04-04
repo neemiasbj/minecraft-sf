@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Sifted Ore",
+    "quantity": 1,
+    "items": []
+  },
+  {
+    "name": "Minério de ferro",
+    "quantity": 1,
+    "items": []
+  },
+  { "name": "Fornalha", "quantity": 1, "items": [] },
+  { "name": "Netherrack", "quantity": 1, "items": [] },
+  { "name": "Pó de redstone", "quantity": 1, "items": [] },
+  { "name": "Barra de ferro", "quantity": 1, "items": [] },
+  { "name": "Machado de Diamante", "quantity": 1, "items": [] },
+  { "name": "Picareta de Diamante", "quantity": 1, "items": [] },
+  {
+    "name": "Cooper Dust",
+    "quantity": 1,
+    "items": [
+      {
+        "name": "Sifted Ore",
+        "quantity": 1,
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "Cooper Ingot",
+    "quantity": 1,
+    "items": [
+      {
+        "name": "Cooper Dust",
+        "quantity": 1,
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "Cooper Wire",
+    "quantity": 8,
+    "items": [
+      {
+        "name": "Cooper Ingot",
+        "quantity": 1,
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "Iron Dust",
+    "quantity": 1,
+    "items": [
+      {
+        "name": "Minério de ferro",
+        "quantity": 1,
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "Nickel Ingot",
+    "quantity": 8,
+    "items": [
+      {
+        "name": "Iron Dust",
+        "quantity": 1,
+        "items": []
+      },
+      { "name": "Barra de ferro", "quantity": 1, "items": [] },
+      { "name": "Cooper Dust", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Cobalt Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Iron Dust", "quantity": 1, "items": [] },
+      { "name": "Cooper Dust", "quantity": 1, "items": [] },
+      { "name": "Nickel Ingot", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Aluminium Dust",
+    "quantity": 1,
+    "items": [{ "name": "Sifted Ore", "quantity": 1, "items": [] }]
+  },
+  {
+    "name": "Magnet",
+    "quantity": 1,
+    "items": [
+      { "name": "Nickel Ingot", "quantity": 1, "items": [] },
+      { "name": "Cobalt Ingot", "quantity": 1, "items": [] },
+      { "name": "Aluminium Dust", "quantity": 1, "items": [] },
+      { "name": "Iron Dust", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Zinc Dust",
+    "quantity": 1,
+    "items": [{ "name": "Sifted Ore", "quantity": 1, "items": [] }]
+  },
+  {
+    "name": "Zinc Ingot",
+    "quantity": 1,
+    "items": [{ "name": "Zinc Dust", "quantity": 2, "items": [] }]
+  },
+  {
+    "name": "Sulfate",
+    "quantity": 1,
+    "items": [{ "name": "Netherrack", "quantity": 16, "items": [] }]
+  },
+  {
+    "name": "Battery",
+    "quantity": 1,
+    "items": [
+      { "name": "Pó de redstone", "quantity": 1, "items": [] },
+      { "name": "Zinc Ingot", "quantity": 1, "items": [] },
+      { "name": "Sulfate", "quantity": 2, "items": [] },
+      { "name": "Cooper Ingot", "quantity": 2, "items": [] }
+    ]
+  },
+  {
+    "name": "Eletromagnet",
+    "quantity": 1,
+    "items": [
+      {
+        "name": "Magnet",
+        "quantity": 1,
+        "items": []
+      },
+      { "name": "Nickel Ingot", "quantity": 2, "items": [] },
+      { "name": "Battery", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Eletric Motor",
+    "quantity": 1,
+    "items": [
+      {
+        "name": "Eletromagnet",
+        "quantity": 1,
+        "items": []
+      },
+      {
+        "name": "Cooper Wire",
+        "quantity": 8,
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "Heating Coil",
+    "quantity": 1,
+    "items": [
+      { "name": "Cooper Wire", "quantity": 8, "items": [] },
+      { "name": "Eletric Motor", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Coal Generator",
+    "quantity": 1,
+    "items": [
+      { "name": "Heating Coil", "quantity": 2, "items": [] },
+      { "name": "Nickel Ingot", "quantity": 3, "items": [] },
+      { "name": "Eletric Motor", "quantity": 1, "items": [] },
+      { "name": "Fornalha", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Baú",
+    "quantity": 1,
+    "items": []
+  },
+  {
+    "name": "Bucket",
+    "quantity": 1,
+    "items": [{ "name": "Barra de ferro", "quantity": 3, "items": [] }]
+  },
+  {
+    "name": "Bucket of Oil",
+    "quantity": 1,
+    "items": [{ "name": "Bucket", "quantity": 1, "items": [] }]
+  },
+  {
+    "name": "Plastic Sheet",
+    "quantity": 1,
+    "items": [{ "name": "Bucket of Oil", "quantity": 1, "items": [] }]
+  },
+
+  {
+    "name": "Android Memory Core",
+    "quantity": 1,
+    "items": [
+      { "name": "Cooper Wire", "quantity": 6, "items": [] },
+      { "name": "Eletromagnet", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Programmable Android (Normal)",
+    "quantity": 1,
+    "items": [
+      { "name": "Plastic Sheet", "quantity": 5, "items": [] },
+      { "name": "Coal Generator", "quantity": 1, "items": [] },
+      { "name": "Eletric Motor", "quantity": 1, "items": [] },
+      { "name": "Baú", "quantity": 1, "items": [] },
+      { "name": "Android Memory Core", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Programmable Android (Woodcutter)",
+    "quantity": 1,
+    "items": [
+      { "name": "Programmable Android (Normal)", "quantity": 1, "items": [] },
+      { "name": "Eletric Motor", "quantity": 1, "items": [] },
+      { "name": "Machado de Diamante", "quantity": 2, "items": [] }
+    ]
+  },
+  {
+    "name": "Programmable Android (Miner)",
+    "quantity": 1,
+    "items": [
+      { "name": "Programmable Android (Normal)", "quantity": 1, "items": [] },
+      { "name": "Eletric Motor", "quantity": 1, "items": [] },
+      { "name": "Picareta de Diamante", "quantity": 2, "items": [] }
+    ]
+  }
+]
