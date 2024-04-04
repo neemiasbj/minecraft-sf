@@ -1,10 +1,5 @@
 [
   {
-    "name": "Sifted Ore",
-    "quantity": 1,
-    "items": []
-  },
-  {
     "name": "Minério de ferro",
     "quantity": 1,
     "items": []
@@ -18,13 +13,7 @@
   {
     "name": "Cooper Dust",
     "quantity": 1,
-    "items": [
-      {
-        "name": "Sifted Ore",
-        "quantity": 1,
-        "items": []
-      }
-    ]
+    "items": []
   },
   {
     "name": "Cooper Ingot",
@@ -84,7 +73,7 @@
   {
     "name": "Aluminium Dust",
     "quantity": 1,
-    "items": [{ "name": "Sifted Ore", "quantity": 1, "items": [] }]
+    "items": []
   },
   {
     "name": "Magnet",
@@ -99,7 +88,7 @@
   {
     "name": "Zinc Dust",
     "quantity": 1,
-    "items": [{ "name": "Sifted Ore", "quantity": 1, "items": [] }]
+    "items": []
   },
   {
     "name": "Zinc Ingot",
@@ -224,6 +213,161 @@
       { "name": "Programmable Android (Normal)", "quantity": 1, "items": [] },
       { "name": "Eletric Motor", "quantity": 1, "items": [] },
       { "name": "Picareta de Diamante", "quantity": 2, "items": [] }
+    ]
+  },
+  { "name": "Carvão", "quantity": 1, "items": [] },
+  {
+    "name": "Carbon",
+    "quantity": 1,
+    "items": [{ "name": "Carvão", "quantity": 8, "items": [] }]
+  },
+  {
+    "name": "Steel Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Iron Dust", "quantity": 1, "items": [] },
+      { "name": "Carbon", "quantity": 1, "items": [] },
+      { "name": "Barra de ferro", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Energy Connector",
+    "quantity": 1,
+    "items": [
+      { "name": "Bloco de Redstone", "quantity": 1, "items": [] },
+      { "name": "Carbon", "quantity": 4, "items": [] },
+      { "name": "Cooper Wire", "quantity": 4, "items": [] }
+    ]
+  },
+  {
+    "name": "Small Energy Capacitor",
+    "quantity": 1,
+    "items": [
+      { "name": "Energy Connector", "quantity": 1, "items": [] },
+      { "name": "Redstone Alloy Ingot", "quantity": 2, "items": [] },
+      { "name": "Duralumin Ingot", "quantity": 4, "items": [] },
+      { "name": "Sulfate", "quantity": 1, "items": [] },
+      { "name": "Pó de redstone", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Silver Dust",
+    "quantity": 1,
+    "items": []
+  },
+  {
+    "name": "Silver Ingot",
+    "quantity": 1,
+    "items": [{ "name": "Silver Dust", "quantity": 1, "items": [] }]
+  },
+  {
+    "name": "Billon Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Silver Dust", "quantity": 1, "items": [] },
+      { "name": "Cooper Dust", "quantity": 1, "items": [] },
+      { "name": "Silver Ingot", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Tin Dust",
+    "quantity": 1,
+    "items": []
+  },
+  {
+    "name": "Bronze Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Tin Dust", "quantity": 1, "items": [] },
+      { "name": "Cooper Dust", "quantity": 1, "items": [] },
+      { "name": "Cooper Ingot", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Aluminium Bronze Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Aluminium Dust", "quantity": 1, "items": [] },
+      { "name": "Bronze Ingot", "quantity": 1, "items": [] },
+      { "name": "Aluminium Ingot", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Compressed Carbon",
+    "quantity": 1,
+    "items": [{ "name": "Carbon", "quantity": 4, "items": [] }]
+  },
+  {
+    "name": "Aluminium Ingot",
+    "quantity": 1,
+    "items": [{ "name": "Aluminium Dust", "quantity": 1, "items": [] }]
+  },
+  {
+    "name": "Duralumin Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Aluminium Dust", "quantity": 1, "items": [] },
+      { "name": "Cooper Dust", "quantity": 1, "items": [] },
+      { "name": "Aluminium Ingot", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Damascus Steel Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Steel Ingot", "quantity": 1, "items": [] },
+      { "name": "Iron Dust", "quantity": 1, "items": [] },
+      { "name": "Carbon", "quantity": 1, "items": [] },
+      { "name": "Barra de ferro", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Hardened Metal",
+    "quantity": 1,
+    "items": [{ "name": "Damascus Steel Ingot", "quantity": 1, "items": [] }]
+  },
+  { "name": "Bloco de Redstone", "quantity": 1, "items": [] },
+  {
+    "name": "Redstone Alloy Ingot",
+    "quantity": 1,
+    "items": [
+      { "name": "Pó de redstone", "quantity": 1, "items": [] },
+      { "name": "Bloco de Redstone", "quantity": 1, "items": [] },
+      { "name": "Hardened Metal", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Silicon",
+    "quantity": 1,
+    "items": [{ "name": "Bloco de Quartzo", "quantity": 1, "items": [] }]
+  },
+  {
+    "name": "Ferrosilicon",
+    "quantity": 1,
+    "items": [
+      { "name": "Barra de ferro", "quantity": 1, "items": [] },
+      { "name": "Iron Dust", "quantity": 1, "items": [] },
+      { "name": "Silicon", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Medium Energy Capacitor",
+    "quantity": 1,
+    "items": [
+      { "name": "Small Energy Capacitor", "quantity": 1, "items": [] },
+      { "name": "Redstone Alloy Ingot", "quantity": 2, "items": [] },
+      { "name": "Billon Ingot", "quantity": 2, "items": [] },
+      { "name": "Pó de redstone", "quantity": 1, "items": [] }
+    ]
+  },
+  {
+    "name": "Oil Pump",
+    "quantity": 1,
+    "items": [
+      { "name": "Steel Ingot", "quantity": 4, "items": [] },
+      { "name": "Bucket", "quantity": 1, "items": [] },
+      { "name": "Eletric Motor", "quantity": 1, "items": [] },
+      { "name": "Medium Energy Capacitor", "quantity": 1, "items": [] }
     ]
   }
 ]
