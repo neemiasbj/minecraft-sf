@@ -15,7 +15,10 @@ function SimpleAccordion(props: {
   return (
     <Accordion defaultIndex={[0]} allowToggle>
       {items.map((item: any, key: number) => (
-        <AccordionItem bg={key % 2 == 0 ? "teal.100" : 'white'}>
+        <AccordionItem
+          key={item.title}
+          bg={key % 2 == 0 ? "teal.100" : "white"}
+        >
           <h2>
             <AccordionButton>
               <Box as="span" flex="1" textAlign="left">
